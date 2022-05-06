@@ -1,0 +1,95 @@
+/* RESPONSIVE DESIGN FOR HEADER */
+header .nav-links {
+    display: none;
+}
+
+header .bar{
+    display: inline;
+    font-size: 30px;
+    padding-right:20px;
+}
+
+/* RESPONSIVE DESIGN FOR ABOUT SECTION */
+.about{
+    width: 100%;
+    height:150vh;
+}
+.foreword{
+    flex-direction: column;
+    text-align: center;
+}
+.foreword h1{
+    font-size:60px;
+    font-weight:600px;
+    letter-spacing:1px;
+}
+
+.foreword p{
+    font-size: 18px;
+    font-weight:400px;
+}
+.foreword .man-image{
+    margin:20px 0;
+}
+.about .trusted-by{
+    margin-top:250px;
+}
+
+.about .trusted-by .companies img{
+    width:70px;
+    height:21px;
+}
+/* RESPONSIVE DESIGN FOR SERVICES SECTION   */
+
+/* .services-type{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* RESPONSIVE DESIGN FOR PROJECTS SECTION   */
+/* .projects{
+   height:170vh;
+}
+.projects .cards{
+    
+    position: absolute;
+    bottom:-90px;
+} */
+/* RESPONSIVE DESIGN FOR BLOGS SECTION   */
+.container-for-blogs{
+    flex-direction: column;
+}
+
+/* RESPONSIVE DESIGN FOR PRODUCT DESIGNER SECTION   */
+.product-designer #titles{
+    flex-direction: column;
+}
+.product-designer .edu-and-exp{
+    flex-direction: column;
+}
+.product-designer .experience{
+    width:100%;
+}
+.product-designer .education{
+    width:100%;
+
+}
+
+/* RESPONSIVE DESIGN FOR TESTIMONIALS DESIGNER SECTION   */
+.testimonials .content-box{
+    flex-direction: column;
+}
+
+/* RESPONSIVE DESIGN FOR FAQ SECTION   */
+.faq .content {
+    flex-direction: column;
+}
+
+
+/* RESPONSIVE DESIGN FOR FOOTER SECTION   */
+footer .content{
+    flex-direction: column;
+}
+.footer-links{
+    justify-content:flex-start;
+}

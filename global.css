@@ -1,0 +1,46 @@
+/* FOR TEXT COLOR */
+.orange-text{
+    color:#FF8A56;
+}
+.red-text{
+    color:#FF5E69;
+}
+.purple-text{
+    color:#B16CEA;
+}
+.blue-text{
+    color:#3C46FF;
+}
+.center-text{
+    text-align: center;
+}
+/* FOR TEXT-SIZE */
+.ex-large-size{
+    font-size:54px;
+}
+.large-size{
+    font-size:30px;
+}
+.medium-size{
+    font-size:24px;
+}
+.small-size{
+    font-size: 18px;
+}
+.so-small-size{
+    font-size: 15px;
+}
+/* FOR BUTTONS */
+.black-btn{
+    background-color: #000;
+    color:#fff;
+}
+.btn{
+    padding:12px 18px;
+    font-size:18px;
+    margin:10px 0;
+}
+.btn-transparent{
+    background: none;
+    border:0;
+}
