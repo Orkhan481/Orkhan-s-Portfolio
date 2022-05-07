@@ -12,7 +12,8 @@ header .bar{
 /* RESPONSIVE DESIGN FOR ABOUT SECTION */
 .about{
     width: 100%;
-    height:150vh;
+    padding:25px 0;;
+    
 }
 .foreword{
     flex-direction: column;
@@ -31,14 +32,14 @@ header .bar{
 .foreword .man-image{
     margin:20px 0;
 }
-.about .trusted-by{
+/* .about .trusted-by{
     margin-top:250px;
-}
+} */
 
-.about .trusted-by .companies img{
+/* .about .trusted-by .companies img{
     width:70px;
     height:21px;
-}
+} */
 /* RESPONSIVE DESIGN FOR SERVICES SECTION   */
 
 /* .services-type{
