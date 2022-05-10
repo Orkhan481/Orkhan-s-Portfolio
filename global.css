@@ -37,12 +37,23 @@
 }
 .black-btn:hover{
     background-color: darkblue;
-    transition:.4s;
+    transition:.8s ease;
+}
+
+.white-btn{
+    background-color: #fff;
+    color: #000;
+}
+
+.white-btn:hover{
+    background-color: #B16CEA;
+    transition:.8s ease;
 }
 .btn{
     padding:12px 18px;
     font-size:18px;
     margin:10px 0;
+    cursor: pointer;
 }
 .btn-transparent{
     background: none;

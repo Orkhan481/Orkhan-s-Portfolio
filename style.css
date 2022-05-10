@@ -676,7 +676,6 @@ header .bar {
     padding: 10px 15px;
     margin: 0;
     border: 0;
-    background-color: #000;
 }
 
 /* TESTIMONIALS SECTION FINISH */
@@ -807,10 +806,11 @@ footer .content .right-side .col {
 }
 
 .footer-links {
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .footer-links a {
@@ -826,4 +826,9 @@ footer .content .right-side .col {
     text-transform: capitalize;
 }
 
+.start{
+    position:absolute;
+    bottom:5px;
+    right:-170px;
+}
 /* FOOTER  FINISH */
