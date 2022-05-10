@@ -325,37 +325,36 @@ header .bar {
 /* PROJECTS SECTION START */
 .projects {
     width: 100%;
-    min-height: 70vh;
+    min-height:90vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 15px 20px;
-    background-color: green;
-    /* position: relative; */
+    padding: 15px 10px;
+    position: relative;
 }
 
 .projects .title-and-button {
-    height: 200px;
+    width:100%;
+    min-height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    padding:10px 15px;
+    margin: 15px 0;
 }
 
 .projects .title-and-button h3 {
-    font-size: 54px;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .projects .cards {
+    width:98%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
-    /* position: absolute;
-     bottom:-90px; */
-    background-color: aqua;
+     position:absolute;
+    bottom:-100px; 
 }
 
 .projects .cards .card {
@@ -388,19 +387,21 @@ header .bar {
 }
 
 .projects .btns {
-    width: 150px;
+    width: 95%;
     padding: 25px 0;
-    /* position: absolute;
-    bottom:-180px;
-    right: 100px;  */
+    display: flex;
+    justify-content: flex-end;
+
+     position: absolute;
+    bottom:-200px;
+    right: 40px;  
 }
 
 .projects .btns .previous-next {
-    width: 9px;
-    height: 15px;
+    padding:15px 20px;
     background-color: #FFFFFF;
-    padding: 20px;
-    margin: 0 4px;
+    margin:5px;
+    
 }
 
 /* PROJECTS SECTION FINISH */
