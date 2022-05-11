@@ -810,7 +810,6 @@ footer .content .right-side .col {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: relative;
 }
 
 .footer-links a {
@@ -825,11 +824,16 @@ footer .content .right-side .col {
 #author {
     text-transform: capitalize;
 }
-
+.start-area{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:15px 0;
+}
 .start{
-    position:absolute;
-    bottom:5px;
-    right:-170px;
+    cursor: pointer;
     color:#fff;
+    border-radius:15px;
 }
 /* FOOTER  FINISH */
