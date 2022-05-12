@@ -48,10 +48,16 @@ header .bar{
     flex-wrap: wrap;
 } */
 /* RESPONSIVE DESIGN FOR PROJECTS SECTION   */
- /* .projects{
-   height:120vh;
-}  */
-
+.projects{
+   height:100vh;
+}  
+/* .projects .cards {
+    position:static;
+}
+.projects .last-card{
+    position:absolute;
+    bottom:-100px;  
+} */
 /* RESPONSIVE DESIGN FOR BLOGS SECTION   */
 .container-for-blogs{
     flex-direction: column;

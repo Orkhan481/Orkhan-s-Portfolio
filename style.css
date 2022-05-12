@@ -325,22 +325,26 @@ header .bar {
 /* PROJECTS SECTION START */
 .projects {
     width: 100%;
-    min-height:70vh;
+    height:60vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 15px 10px;
-    position: relative;
+    padding:10px;
+    position: relative; 
 }
+@media only screen and (max-width: 1100px) {
+    .projects{min-height:100vh;} 
+  }
 
+@media only screen and (max-width: 750px) {
+    .projects{min-height:140vh;} 
+  }
 .projects .title-and-button {
     width:100%;
-    min-height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 15px;
-    margin: 15px 0;
+    padding:20px 0;
 }
 
 .projects .title-and-button h3 {
@@ -351,9 +355,10 @@ header .bar {
 .projects .cards {
     width:98%;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-     position:absolute;
+    flex-wrap: wrap;
+    padding:15px 0;
+    position:absolute;
     bottom:-100px; 
 }
 
